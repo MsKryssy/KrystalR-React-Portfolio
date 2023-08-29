@@ -1,0 +1,17 @@
+main h2 {
+    font-size: 3rem;
+}
+
+.lessons {
+    font-size: 2rem;
+}
+
+.img-fluid {
+    font-size: 5rem;
+}
+
+.KSAs .list-group.item {
+    background-color: aliceblue;
+    color: var(--lighter);
+    border-color: var(--darker);
+}
