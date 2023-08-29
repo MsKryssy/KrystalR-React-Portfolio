@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-const Navbar = ({ pages, currentPage, setCurrentPage }) => {
+const Nav = ({ pages, currentPage, setCurrentPage }) => {
     return (
         <nav className="d-flex align-items-center justify-content-between">
                 {pages.map(page => (

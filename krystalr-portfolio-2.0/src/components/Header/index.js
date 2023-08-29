@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Nav from '../Nav';
 
 import bannerImg from '../../assets/images/travel-banner.png';
 import './styles.css';
@@ -11,11 +11,11 @@ const Header = ({ pages, currentPage, setCurrentPage }) => {
       <div className="container d-lg-flex justify-content-between px-3">
         <h1 className='text-center'>Krystal Richardson</h1>
 
-        <Navbar pages={pages} currentPage={currentPage} setCurrentPage={setCurrentPage} />
+        <Nav pages={pages} currentPage={currentPage} setCurrentPage={setCurrentPage} />
 
       </div>
     </header>
   );
 };
 
-export default Header
+export default Header;
