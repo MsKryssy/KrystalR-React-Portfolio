@@ -16,6 +16,7 @@
 html, body {
   min-height: 100%;
 }
+
 main{
   min-height: calc(100vh - 250px);
 }
@@ -33,7 +34,7 @@ a {
   text-decoration: none;
   color: var(--darker);
   opacity: 1;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in;
 }
 a:hover{
   opacity: 2;

@@ -12,10 +12,10 @@ const Contact = () => {
   const form = useRef();
   const handleChange = (e) => {
     e.preventDefault();
-    setFormState(e.target
-      ({...formState, [e.target.name]: e.target.value }));
+    setFormState
+      ({...formState, [e.target.name]: e.target.value });
   };
-
+// review this section
   const handleSubmit = (e) => {
     e.preventDefault();
       console.log(formState);

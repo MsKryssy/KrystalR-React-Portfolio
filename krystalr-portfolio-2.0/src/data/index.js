@@ -28,5 +28,4 @@ export const challenges = [
         link: "https://language-learning-app-pj2-c75719e3ef2c.herokuapp.com",
         repo: "https://github.com/Tzuzu/Language-Learner",
     },
-
 ];

@@ -3,7 +3,7 @@ nav {
     letter-spacing: 0.3rem;
 }
 
-nav li {
+header .nav-link {
     color: var(--darker);
     opacity: 0.5;
     font-family: "Aladin', cursive;";
@@ -12,12 +12,14 @@ nav li {
     margin: 8px;
 }
 
-nav li:hover {
+header 
+.nav-link:hover {
     opacity: 1;
     color: var(--light);
-}
+}  
 
-.active {
+header .nav-link.active {
     opacity: 1;
     color: var(--white);
+    cursor: default;
 }

@@ -1,6 +1,7 @@
 header {
     height: 225px;
     position: relative;
+    z-index: 1.5;
 }
 
 header img {
@@ -11,6 +12,7 @@ header img {
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
+    z-index: 0.5;
 }
 
 header h1 {
@@ -22,8 +24,4 @@ header h1 {
     border-style: solid;
     box-shadow: inset 0px 0px 12px;
     padding: 0px 10px 5px 10px;
-}
-
-header Nav {
-    z-index: 1.25;
 }

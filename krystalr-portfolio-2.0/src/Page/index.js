@@ -1,21 +1,21 @@
 import React from 'react';
+import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
-import About from './About';
 import Resume from './Resume';
 import './style.css';
 
 const Page = ({ currentPage }) => {
   const renderPage = (page) => {
     switch (page) {
-      case 'Portfolio':
-        return <Portfolio />;
-      case 'Contact':
-        return <Contact />;
-      case 'About':
-        return <About />;
-      default:
-        return <Resume />;
+      case 'portfolio':
+				return <Portfolio />;
+			case 'contact':
+				return <Contact />;
+			case 'resume':
+				return <Resume />;
+			default:
+				return <About />;
     }
   };
   return (

@@ -1,13 +1,13 @@
-import React from "react";
-import Header from "./components/Header";
-import Page from "./Page";
-import Footer from "./components/Footer";
+import React, { useState } from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Page from './Page';
 
 const pages = ["About", "Portfolio", "Contact", "Resume"];
 // you will be able to switch between them by creating this
 
 function App() {
-  const [currentPage, setCurrentPage] = React.useState("About");
+  const [currentPage, setCurrentPage] = useState('About');
   return (
    <div className="wrapper">
     <Header

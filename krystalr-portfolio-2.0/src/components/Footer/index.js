@@ -19,7 +19,7 @@ const Footer = () => {
  return (
   <footer className="d-flex justify-content-center align-items-center">
     {icons.map((icon) => (
-     <a href={icon.link} target="_blank" rel="noreferrer" key={icon.name} className="mx-3">
+     <a href={icon.link} key={icon.name} target="_blank" rel="noreferrer"  className="mx-3">
       <i className={icon.name}></i>
       </a>
 ))}
