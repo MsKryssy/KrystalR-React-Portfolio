@@ -31,4 +31,4 @@ about my portfolio or the repo.
 
 https://mskryssy.github.io/KrystalR-React-Portfolio/
 
-![Placeholder Screenshot](krystalr-portfolio-2.0/src/assets/images/react-portfolio.png)
+![Screenshot](krystalr-portfolio-2.0/src/assets/images/react-portfolio.png)
