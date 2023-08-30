@@ -5,7 +5,6 @@
 # Table of Contents
 
 - [Description](#description)
-- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contact](#contact)
@@ -15,9 +14,9 @@
 
 This portfolio used to show things learned over the course of the bootcamp using Bootstrap and React. 
 
-# Installation
-
 # Usage
+
+You can use this application to view my personal portfolio if needed when you have to build a new portfolio using React!
 
 # License
 
@@ -30,5 +29,6 @@ about my portfolio or the repo.
 
 # Demo
 
+https://mskryssy.github.io/KrystalR-React-Portfolio/
 
-![Placeholder Screenshot]
+![Placeholder Screenshot](krystalr-portfolio-2.0/src/assets/images/react-portfolio.png)
