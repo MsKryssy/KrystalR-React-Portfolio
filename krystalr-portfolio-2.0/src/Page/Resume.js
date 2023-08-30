@@ -30,12 +30,12 @@ const Resume = () => {
         on Google Drive
       </p>
       <div className="d-flex mt-3 row">
-        <div className="col-12 col-md-6 d-flex align-items-center flex-column mb-3">
+        <div className="col-12 col-md-6 d-flex flex-column align-items-center">
           <h3 className="lessons">Front-End/Back-End Learning Languages</h3>
-          <ul className="list-group">
-            {languages.map((language) => (
+          <ul className="list-group list-group-flush">
+            {languages.map((item) => (
               <li className="list-group-item">
-                {language}
+                {item}
               </li>
             ))}
           </ul>

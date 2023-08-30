@@ -6,12 +6,13 @@ main h2 {
     font-size: 2rem;
 }
 
-.img-fluid {
+.fa-user-circle {
     font-size: 5rem;
 }
 
-.KSAs .list-group.item {
-    background-color: aliceblue;
-    color: var(--lighter);
-    border-color: var(--darker);
+.KSAs, 
+.list-group.item {
+    background-color: transparent;
+    color: var(--dark);
+    border-color: var(--lighter);
 }

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [formState, setFormState] = useState({
@@ -10,31 +10,33 @@ const Contact = () => {
 
   const [btnText, setBtnText] = useState("Submit");
   const form = useRef();
-
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormState((prevState) => ({ ...prevState, [name]: value }));
+    e.preventDefault();
+    setFormState(e.target
+      ({...formState, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    try {
       console.log(formState);
-      const result = await emailjs.sendForm(
+      emailjs.sendForm(
         "service_jodo737",
         "template_a2pfvvl",
         form.current,
         "YtZS6VBZXYS4mZd16"
-      );
-      console.log(result.text);
-      setBtnText("Message Sent!");
-      setTimeout(() => {
-        window.location.reload();
-      }, 3000);
-    } catch (error) {
-      console.log(error.text);
-      setBtnText("Error!");
-    }
+      ) 
+      .then(
+        (result) => {
+        console.log(result.text);
+        setBtnText("Message Sent!");
+        setTimeout(() => {
+          window.location.reload();
+        }, 3000);
+      }, (error) => {
+        console.log(error.text);
+        setBtnText("Error!");
+      }
+    );
   };
 
   return (

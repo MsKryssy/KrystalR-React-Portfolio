@@ -14,3 +14,5 @@ const Nav = ({ pages, currentPage, setCurrentPage }) => {
         </nav>
     )
 };
+
+export default Nav;
