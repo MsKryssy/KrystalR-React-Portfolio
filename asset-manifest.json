@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/KrystalR-React-Portfolio/static/css/main.a47af2ab.css",
+    "main.js": "/KrystalR-React-Portfolio/static/js/main.5af7fda8.js",
+    "static/media/Code-Refactor-Horiseon.png": "/KrystalR-React-Portfolio/static/media/Code-Refactor-Horiseon.7974a8de1713714de141.png",
+    "static/media/travel.jpg": "/KrystalR-React-Portfolio/static/media/travel.7595fa82e1830168da08.jpg",
+    "static/media/employee-tracker.png": "/KrystalR-React-Portfolio/static/media/employee-tracker.6ec769a8144942519d41.png",
+    "static/media/project-1.png": "/KrystalR-React-Portfolio/static/media/project-1.bfbdf0d58456fa705f69.png",
+    "static/media/krystalr.jpg": "/KrystalR-React-Portfolio/static/media/krystalr.006a510df69d0e57e6ef.jpg",
+    "static/media/RPG-Screenshot.png": "/KrystalR-React-Portfolio/static/media/RPG-Screenshot.e04c2284e27d96e4d74e.png",
+    "static/media/note-taker-app.png": "/KrystalR-React-Portfolio/static/media/note-taker-app.7e6c442a0056acda0cb9.png",
+    "static/media/NBA-Quiz (1).png": "/KrystalR-React-Portfolio/static/media/NBA-Quiz (1).e5a9bfbe7986b80f2ca2.png",
+    "index.html": "/KrystalR-React-Portfolio/index.html",
+    "main.a47af2ab.css.map": "/KrystalR-React-Portfolio/static/css/main.a47af2ab.css.map",
+    "main.5af7fda8.js.map": "/KrystalR-React-Portfolio/static/js/main.5af7fda8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a47af2ab.css",
+    "static/js/main.5af7fda8.js"
+  ]
+}
